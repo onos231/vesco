@@ -1,14 +1,13 @@
 {
-  "name": "jquery",
-  "main": "dist/jquery.js",
-  "license": "MIT",
-  "ignore": [
-    "package.json"
+  "name": "owl.carousel",
+  "version": "2.3.4",
+  "main": [
+    "dist/owl.carousel.js",
+    "dist/assets/owl.carousel.css",
+    "dist/assets/owl.theme.default.css"
   ],
-  "keywords": [
-    "jquery",
-    "javascript",
-    "browser",
-    "library"
-  ]
+  "ignore": [],
+  "dependencies": {
+    "jquery": ">= 1.8.3"
+  }
 }
